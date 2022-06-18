@@ -54,6 +54,32 @@
 // var cap1 = prompt("enter any word");
 // document.write(`input: ${cap1} </br> title case: ${cap1.charAt(0).toUpperCase().concat(cap1.slice(1))} </br>`)
 
-document.write(`<h1>question 14</h1> </br>`)
-var num1 = 33.56;
-document.write(`num: ${num1} </br> str: ${num1.toString()} </br>`)
+// document.write(`<h1>question 14</h1> </br>`)
+// var num1 = 33.56;
+// document.write(`num: ${num1} </br> str: ${num1.toString()} </br>`)
+
+// document.write(`<h1>question 15</h1> </br>`)
+// var a = "3";
+// var b = "3";
+// var x = a + b;
+// document.write(`a is 3 </br> b is 3 </br> a + b = ${x} </br>`)
+
+// document.write(`<h1>question 16</h1> </br>`)
+// var d = "3";
+// var e = "3";
+// var y = d - e;
+// document.write(`a is 3 </br> b is 3 </br> a - b = ${y} </br>`)
+
+document.write(`<h1>question 16</h1> </br>`)
+var name2 = prompt("enter your name");
+
+for(i=0; i < name2.length; i++){
+    var a1 = name2.charCodeAt(i);
+    if(a1 == 33 || a1 == 44 || a1 == 46 || a1 == 64){
+        alert("enter a valid username")
+        break
+    }
+    else{
+        document.write(`${name2} </br>`)
+    }
+}
