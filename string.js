@@ -53,3 +53,7 @@
 // document.write(`<h1>question 13</h1> </br>`)
 // var cap1 = prompt("enter any word");
 // document.write(`input: ${cap1} </br> title case: ${cap1.charAt(0).toUpperCase().concat(cap1.slice(1))} </br>`)
+
+document.write(`<h1>question 14</h1> </br>`)
+var num1 = 33.56;
+document.write(`num: ${num1} </br> str: ${num1.toString()} </br>`)
